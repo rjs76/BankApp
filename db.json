@@ -1,0 +1,40 @@
+{
+  "accounts": [
+    { "_id": 1, "name": "Lannisters", "balance": 1189.78 },
+    { "_id": 2, "name": "Starky", "balance": 567.71 },
+    { "_id": 3, "name": "Hernandez", "balance": 31.26 },
+    { "_id": 4, "name": "Targaryens", "balance": 34.75 },
+    { "_id": 5, "name": "Greyjoys", "balance": 9.03 },
+    { "_id": 6, "name": "Tyrells", "balance": 1133.45 },
+    { "_id": 7, "name": "Martells", "balance": 737.90 },
+    { "_id": 8, "name": "Tullys", "balance": 483.56 },
+    { "_id": 9, "name": "Arryns", "balance": 1035.83 },
+    { "_id": 10, "name": "Nick Steal", "balance": -134.34 }
+  ],
+  "transactions": [
+    { "_id": 1, "accountName": "Lannisters", "type": "deposit", "amount": 677.40, "name": "Account Opened" },
+    { "_id": 2, "accountName": "Lannisters", "type": "deposit", "amount": 1000.00, "name": "Gold Mine Profits" },
+    { "_id": 3, "accountName": "Lannisters", "type": "withdraw", "amount": 300.00, "name": "Iron Bank Interest" },
+    { "_id": 4, "accountName": "Lannisters", "type": "withdraw", "amount": 402.34, "name": "Defenses of Kings Landing" },
+    { "_id": 5, "accountName": "Lannisters", "type": "deposit", "amount": 214.72, "name": "Taxes from Kingdoms" },
+    { "_id": 6, "accountName": "Starky", "type": "deposit", "amount": 500.00, "name": "Account Opened" },
+    { "_id": 7, "accountName": "Starky", "type": "deposit", "amount": 120.34, "name": "Taxes from bannermen" },
+    { "_id": 8, "accountName": "Starky", "type": "withdraw", "amount": 204.23, "name": "Sending Lord to Capital" },
+    { "_id": 9, "accountName": "Starky", "type": "withdraw", "amount": 11.34, "name": "Camping at Twins" },
+    { "_id": 10, "accountName": "Starky", "type": "deposit", "amount": 162.94, "name": "Spoils of War" },
+    { "_id": 11, "accountName": "Hernandez", "type": "deposit", "amount": 934.36, "name": "Account Opened" },
+    { "_id": 12, "accountName": "Hernandez", "type": "withdraw", "amount": 394.95, "name": "Younger Brother Rebelled" },
+    { "_id": 13, "accountName": "Hernandez", "type": "withdraw", "amount": 183.48, "name": "Attacked King's Landing" },
+    { "_id": 14, "accountName": "Hernandez", "type": "deposit", "amount": 500.00, "name": "Iron Bank Loan" },
+    { "_id": 15, "accountName": "Hernandez", "type": "withdraw", "amount": 643.03, "name": "Hire Mercenaries" },
+    { "_id": 24, "accountName": "aratheons", "type": "withdraw", "amount": 138.64, "name": "Transit to Wall" },
+    { "_id": 16, "accountName": "Targaryens", "type": "deposit", "amount": 34.75, "name": "Account Opened" },
+    { "_id": 17, "accountName": "Greyjoys", "type": "deposit", "amount": 9.03, "name": "Account Opened" },
+    { "_id": 18, "accountName": "Tyrells", "type": "deposit", "amount": 1133.45, "name": "Account Opened" },
+    { "_id": 19, "accountName": "Martells", "type": "deposit", "amount": 737.9, "name": "Account Opened" },
+    { "_id": 20, "accountName": "Tullys", "type": "deposit", "amount": 483.56, "name": "Account Opened" },
+    { "_id": 21, "accountName": "Arryns", "type": "deposit", "amount": 1035.83, "name": "Account Opened" },
+    { "_id": 22, "accountName": "Nick_Steal", "type": "deposit", "amount": 0.00, "name": "Account Opened" },
+    { "_id": 23, "accountName": "Nick_Steal", "type": "withdraw", "amount": 134.34, "name": "Raiding Repayment" }
+  ]
+}
