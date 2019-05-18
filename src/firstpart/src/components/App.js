@@ -42,7 +42,15 @@ class AppOld extends React.Component {
             </div>
         );
     }
-
+componentDidMount() {
+    fetch ('http://my-json-server.typicode.com/rjs76/bankingApp/accounts')
+      .then(res => res.json())
+      .then(json => {
+        this.setState({
+          items: json,
+        })
+      });
+  }
     render() {
         const { view } = this.state;
 
